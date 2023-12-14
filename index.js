@@ -43,20 +43,3 @@ program.parse();
 
 const options = program.opts();
 invokeAction(options);
-
-// invokeAction({ action: "list" });
-// invokeAction({ action: "getById", id: "qdggE76Jtbfd9eWJHrssH" });
-// invokeAction({
-//   action: "add",
-//   name: "Adam Perry",
-//   mail: "a.perry@gmail.com",
-//   phone: "(294) 840-6689",
-// });
-// invokeAction({
-//       action: "updateById",
-//       id: "cVtgW2xMCZ5pB1FnKQ_ub",
-//       name: "Tony Perry",
-//       mail: "a.perry@gmail.com",
-//       phone: "(294) 840-6689",
-//     });
-// invokeAction({ action: "deleteById", id: "cVtgW2xMCZ5pB1FnKQ_ub" });
